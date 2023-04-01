@@ -4,5 +4,7 @@ df1 <- data.frame(x = rnorm(10),
 
 library(ggplot2)
 ggplot(df1, aes(x = x, y = y)) + 
-  geom_point(size = 5,colour = "red")
+  geom_point(size = 5,colour = "red") +
+  geom_line()
+  
   
